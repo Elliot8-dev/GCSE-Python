@@ -20,3 +20,18 @@ if num >= 20 :
 else:
     print("thank you")
 
+#Challenge 3
+
+num = int(input("Enter a number between 10 and 20"))
+
+if num > 10  and num < 20 :
+    print("thank you")
+
+else:
+    ("incorrect number")
+
+
+#Challenge 4
+
+
+
