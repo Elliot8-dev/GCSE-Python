@@ -33,5 +33,18 @@ else:
 
 #Challenge 4
 
+fav_colour = str(input("Enter your favourite colour"))
+
+if fav_colour == ("red") or fav_colour == ("RED") or fav_colour == ("Red") :
+    print("I like red too")
+
+else:
+    print("I don't like", fav_colour,",", fav_colour, "is for losers")
+
+
+#Challenge 5
+
+
+
 
 
