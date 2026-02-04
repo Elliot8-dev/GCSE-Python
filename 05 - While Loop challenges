@@ -1,0 +1,26 @@
+#Challenge 1
+total = 0
+while total <= 50 :
+    num = int(input("Enter a number"))
+    total = total + num
+    print("The total is", total)
+
+#Challenge 2
+num = 0
+while num < 6:
+    num = int(input("Enter a number"))
+print("The last number you entered was a", num)
+
+#Challenge 3
+num_1 = int(input("Enter a number"))
+
+char_1 = "n"
+while char_1 != "y":
+    num_2 = int(input("Enter another number"))
+    char_1 = input("Do you want to add another number, y(yes) or n(no)")
+    if char_1 == "y":
+        num_3 = int(input("Enter another number"))
+        total = num_1 + num_2 + num_3
+print(total)
+        
+#Challenge 4
