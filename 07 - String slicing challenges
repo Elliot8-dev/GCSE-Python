@@ -1,3 +1,31 @@
+#Challenge 1
+
 fname = str(input("What is your first name"))
 print(len(fname))
+
+#Challenge 2
+
+fname = str(input("What is your first name"))
+lname = str(input("What is your last name"))
+wholename = fname +" "+ lname
+print(wholename)
+print(len(wholename))
+
+#Challenge 3
+
+fname = str(input("What is your first name")).lower()
+lname = str(input("What is your last name")).lower()
+wholename = fname +" "+ lname
+print(wholename)
+
+#Challenge 4
+
+fline = str(input("Enter the first line of a nursery rhyme"))
+length = len(fline)
+print("This line has ",length," letters in it")
+start = int(input("Enter a starting number"))
+end = int(input("Enter a ending number"))
+print(fline[start:end])
+
+#Challenge 5
 
