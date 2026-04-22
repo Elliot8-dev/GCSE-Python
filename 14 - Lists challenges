@@ -24,3 +24,15 @@ while sen_var == True:
 
 print(cars)
 
+#Challenge 3
+
+names = []
+
+names.append(input("Enter a name"))
+names.append(input("Enter a name"))
+names.append(input("Enter a name"))
+
+var = True
+while var == True:
+    more_names = input("do you want to add another name").lower
+
