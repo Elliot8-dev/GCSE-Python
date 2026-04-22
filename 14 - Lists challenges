@@ -1,1 +1,26 @@
+#Challenge 1
+
+cars = []
+cars.append(input("Enter a name of a car brand"))
+cars.append(input("Enter a name of a car brand"))
+cars.append(input("Enter a name of a car brand"))
+print(cars)
+
+#Challenge 2
+
+cars = []
+sen_var = True
+while sen_var == True:
+    brand = input("input a car brand or press x to exit")
+
+    if brand == "x":
+            print("exitting")
+            sen_var = False
+           
+
+    else:
+        cars.append(brand)
+
+
+print(cars)
 
