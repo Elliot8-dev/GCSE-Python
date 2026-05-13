@@ -11,3 +11,15 @@ my_space_company.append(vec3)
 print(my_space_company)
 
 #Challenge 2
+
+my_space_company = ["Rocket Pack", "Moon Base", "Moon Buggy"]
+print(my_space_company)
+
+my_space_company[0] = "Rich people going to Mars"
+print(my_space_company)
+
+my_space_company[1] = "Rich people going to the moon"
+print(my_space_company)
+
+#Challenge 3
+
