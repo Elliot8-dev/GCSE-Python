@@ -1,1 +1,13 @@
+#Challenge 1
 
+my_space_company = []
+print(my_space_company)
+vec1 = str(input("enter a space vehicle"))
+vec2 = str(input("enter a space vehicle"))
+vec3 = str(input("enter a space vehicle"))
+my_space_company.append(vec1)
+my_space_company.append(vec2)
+my_space_company.append(vec3)
+print(my_space_company)
+
+#Challenge 2
