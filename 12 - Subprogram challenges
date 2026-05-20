@@ -8,3 +8,29 @@ def menu():
 menu()
 
 #Challenge 2
+
+def menu():
+    options = ["Domination", "Team Deathmatch", "Headquarters"]
+    print(options)
+    choice = int(input("Choose one of the options(1,2 or 3)"))
+menu()
+
+#Challenge 3
+
+def menu():
+    options = ["1)1-player", "2)2-player", "3)Online", "4)Exit"]
+    print(options)
+    choice = int(input("Choose option 1,2,3 or 4"))
+    if choice == 1:
+                 print("1 player selcted")
+    if choice == 2:
+                 print("2 player selected")
+    if choice == 3:
+                 print("Online selected")
+    if choice == 4:
+                 print("exiting")
+
+menu()
+
+#Challenge 4
+
