@@ -1,2 +1,10 @@
 #Challenge 1
 
+def menu():
+    options = ["Career mode", "Tournament mode", "Online Seasons"]
+    print(options[0])
+    print(options[1])
+    print(options[2])
+menu()
+
+#Challenge 2
